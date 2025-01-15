@@ -1,14 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 html,
 body {
@@ -19,7 +17,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,10 +31,50 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  list-style: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.logo{
+  width: 80px; 
+  height: auto; 
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.topNav{
+    width: 100%;           /* w-full */
+    position: fixed;       /* fixed */
+    padding: 0.5rem;
+    display: flex;         /* flex */
+    align-items: center;   /* items-center */
+    justify-content: space-between; /* justify-between */
+    z-index: 50;   
+    list-style: none; 
+    background-color: white;       /* z-50 */
+  
   }
+
+  .topNavLinks{
+    border-radius: 9999px; /* Fully rounded, equivalent to rounded-full */
+    padding-left: 3rem; /* 12 multiplied by 0.25rem */
+    padding-right: 3rem; /* 12 multiplied by 0.25rem */
+    padding-top: 0.75rem; /* 3 multiplied by 0.25rem */
+    padding-bottom: 0.75rem; 
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+  }
+
+.quote-button{
+  padding: 16px;
+  border-radius: 28px;
+  border: solid 1px black;
+  margin-right: 3rem;
+}
+
+.header-image{
+  width: 100vw;
+  height: auto;
 }
