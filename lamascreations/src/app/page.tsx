@@ -1,3 +1,4 @@
+"use client"
 import Navbar from "./components/navbar";
 import styles from "./page.module.css";
 import Header from "./components/header"

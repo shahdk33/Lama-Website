@@ -3,16 +3,23 @@ import Image from 'next/image'
 import weddingPhoto from '../assets/wedding-photo.jpg'
 import babyShowerPhoto from '../assets/baby-shower-photo.jpg'
 import partyPhoto from '../assets/party.jpg'
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import AOS from "aos";
 
 const Events = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800, offset: 100 });
+  }, []);
+
   return (
     <div className="events-page" id='events'>
       <h1 className="service-title">Services</h1>
       
-      <div className="service">
+      <div className="service" data-aos="fade-up">
 
         <div className='eventPhotoDiv'>
-          <Image className='eventPhoto' src={weddingPhoto}/>
+          <Image className='eventPhoto' alt="wedding photo" src={weddingPhoto}/>
         </div>
 
         <div className="eventDetails">
@@ -27,10 +34,10 @@ const Events = () => {
 
       </div>
 
-      <div className="service">
+      <div className="service" data-aos="fade-up">
 
       <div className='eventPhotoDiv'>
-        <Image className='eventPhoto' src={babyShowerPhoto}/>
+        <Image className='eventPhoto' alt="baby shower photo" src={babyShowerPhoto}/>
       </div>
 
       <div className="eventDetails">
@@ -45,10 +52,10 @@ const Events = () => {
 
       </div>
 
-    <div className="service">
+    <div className="service" data-aos="fade-up">
 
       <div className='eventPhotoDiv'>
-        <Image className='eventPhoto' src={partyPhoto}/>
+        <Image className='eventPhoto' alt="party photo" src={partyPhoto}/>
       </div>
 
     <div className="eventDetails">
