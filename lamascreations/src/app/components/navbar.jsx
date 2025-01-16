@@ -18,9 +18,9 @@ const Navbar = () => {
 <div className="topNavDiv">
             <ul className="topNavLinks">
                 <li> <Link href="/home">Home</Link></li>
-                <li> <a href="/home#events">Events</a></li>
-                <li> <a href="#rentals">Rentals</a></li>
-                <li> <a href="#rentals">Gallery</a></li>
+                <li> <a href="/home#events">Services</a></li>
+                <li> <Link href="/rentals">Rentals</Link></li>
+                <li> <Link href="/gallery">Gallery</Link></li>
                 <li><Link href="/about">About</Link></li>
             </ul>
 </div>
