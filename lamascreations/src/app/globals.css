@@ -77,4 +77,48 @@ a {
 .header-image{
   width: 100vw;
   height: auto;
+  display: block;
 }
+
+.header-text{
+  position: absolute;
+  top: 50%; /* Centers vertically */
+  left: 50%; /* Centers horizontally */
+  transform: translate(-50%, -50%); 
+  color: white; /* Adjust to contrast with the image */
+  display: flex;
+  flex-direction: column; /* Stacks the elements vertically */
+  align-items: center; /* Centers the text horizontally */
+  justify-content: center; /* Centers the text vertically */
+  text-align: center; /* Ensures text inside is centered */
+
+
+}
+
+.header-title{
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold; /* Optional for styling */
+  font-family: 'Dancing Script';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds text clarity */
+  font-weight: bold; /* Optional for styling */
+  text-shadow: 2px 2px 50px rgba(0, 0, 0, 0.5); /* Adds text clarity */
+  font-weight: bold; /* Optional for styling */
+}
+
+.events-page{
+  height: 100vh;
+}
+
+.service-title{
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.service{
+  margin: 20px;
+  font-size: 1.5rem;
+}
+

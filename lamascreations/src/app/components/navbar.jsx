@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '../assets/Logo.png'
-import header from '../assets/Header-Image.jpg'
 import '../globals.css';
 
 const Navbar = () => {
@@ -29,7 +28,6 @@ const Navbar = () => {
             
         </nav>
 
-        <Image className="header-image" alt="wedding table set up" src={header}/>
     </div>
   )
 }
