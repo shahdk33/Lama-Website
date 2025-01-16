@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import AOS from "aos";
 
-
 // Define `roboto` if not imported from layout
 const ballet = Parisienne({
   subsets: ['latin'],

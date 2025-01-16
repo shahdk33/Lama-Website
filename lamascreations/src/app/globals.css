@@ -190,3 +190,38 @@ a {
   background-color: #1b1b19;
   color: white;
 }
+
+.footer {
+  margin-top: 10%;
+  background-color: #af9853;
+  color: #fff;
+  padding: 40px 0;
+  bottom: 0;
+  width: 100%;
+  font-family:'Courier New', Courier, monospace
+}
+
+.footer-Div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.footer-date {
+  margin: 0;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  color: #c7c3c3;
+}
