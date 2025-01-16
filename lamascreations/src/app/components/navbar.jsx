@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import logo from '../assets/Logo.png'
 import '../globals.css';
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -16,11 +17,11 @@ const Navbar = () => {
 
 <div className="topNavDiv">
             <ul className="topNavLinks">
-                <li> <a href="#top" >Home</a></li>
-                <li> <a href="#events">Events</a></li>
+                <li> <Link href="/home">Home</Link></li>
+                <li> <a href="/home#events">Events</a></li>
                 <li> <a href="#rentals">Rentals</a></li>
                 <li> <a href="#rentals">Gallery</a></li>
-                <li> <a href="#about">About</a></li>
+                <li><Link href="/about">About</Link></li>
             </ul>
 </div>
 

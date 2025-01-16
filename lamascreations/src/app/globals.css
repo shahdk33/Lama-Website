@@ -43,12 +43,12 @@ a {
 
 .topNav{
     width: 100%;           /* w-full */
-    position: fixed;       /* fixed */
+    /* position: fixed;       fixed */
     padding: 0.5rem;
     display: flex;         /* flex */
     align-items: center;   /* items-center */
     justify-content: space-between; /* justify-between */
-    z-index: 50;   
+    /* z-index: 50;    */
     list-style: none; 
     background-color: white;       /* z-50 */
   
@@ -91,6 +91,7 @@ a {
 
 .headerDiv{
   overflow: hidden;
+  height: 100vh;
 }
 
 .header-text{
@@ -224,4 +225,13 @@ a {
 
 .footer-links a:hover {
   color: #c7c3c3;
+}
+
+.about-title{
+  color: black;
+  size: 2rem;
+}
+
+.about-text{
+  color: black;
 }
