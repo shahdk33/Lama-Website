@@ -82,7 +82,7 @@ a {
 
 .header-text{
   position: absolute;
-  top: 50%; /* Centers vertically */
+  top: 65%; /* Centers vertically */
   left: 50%; /* Centers horizontally */
   transform: translate(-50%, -50%); 
   color: white; /* Adjust to contrast with the image */
@@ -95,8 +95,9 @@ a {
 
 }
 
+
 .header-title{
-  font-size: 2rem; /* Adjust size as needed */
+  font-size: 3.5rem; /* Adjust size as needed */
   font-weight: bold; /* Optional for styling */
   font-family: 'Dancing Script';
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds text clarity */
@@ -105,9 +106,7 @@ a {
   font-weight: bold; /* Optional for styling */
 }
 
-.events-page{
-  height: 100vh;
-}
+
 
 .service-title{
   margin: auto;
@@ -117,8 +116,59 @@ a {
   
 }
 
-.service{
-  margin: 20px;
-  font-size: 1.5rem;
+.service {
+  display: flex; /* Creates a horizontal layout */
+  align-items: flex-start; /* Align items to the top */
+  gap: 2rem; 
+  margin-top: 7%;
+  margin-left: 3rem;
+  margin-right: 20%;
 }
 
+.eventPhotoDiv {
+  flex: 0 0 auto;
+  margin: 1rem; 
+}
+
+.eventPhoto {
+  width: 20rem; 
+  height: auto; 
+  border-radius: 16px; 
+  object-fit: cover; 
+}
+
+.eventDetails {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin: 1rem 
+}
+
+.eventDetails h2 {
+  margin: 0 0rem 0; 
+  font-size: 1.5rem; 
+}
+
+.eventDetails p {
+  color: #555; 
+}
+
+.arrowButton {
+  width: 120px;
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff; 
+  color: #000000; 
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 26px; 
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.arrowButton:hover {
+  background-color: #1b1b19;
+  color: white;
+}
