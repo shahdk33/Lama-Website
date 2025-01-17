@@ -36,41 +36,48 @@ const Gallery = () => {
   return (
     <div className="page">
       <h1 className="service-title">Gallery</h1>
-      <div className="gallery-row">
+      <div className="gallery-row" data-aos="fade-up">
 
-        <Image className="gallery-photo" alt= "" src={weddingImage} />
+        
         <Image className="gallery-photo" alt= "" src={weddingImage2} />
-        <Image className="gallery-photo"  alt= "" src={weddingImage3} />
-        <Image className="gallery-photo" alt= "" src={flower} />
+        <Image className="gallery-photo" alt= "" src={weddingImage4} />
+
+        <Image className="gallery-photo" alt= "" src={weddingImage6} />
 
 
       </div>
 
-      <div className="gallery-row">
+      <div className="gallery-row" data-aos="fade-up">
         
         <Image className="gallery-photo" alt= "" src={grad} />
+        <Image className="gallery-photo"  alt= "" src={weddingImage3} />
         <Image className="gallery-photo" alt= "" src={grad2} />
-        <Image className="gallery-photo" alt= "" src={weddingImage4} />
 
       </div>
 
       
-      <div className="gallery-row">
+      <div className="gallery-row" data-aos="fade-up">
         
         <Image className="gallery-photo" alt= "" src={weddingImage5} />
-        <Image className="gallery-photo" alt= "" src={weddingImage6} />
         <Image className="gallery-photo" alt= "" src={bouqet} />
-        <Image  className="gallery-photo" alt= "" src={bouqet2} />
+        <Image className="gallery-photo" alt= "" src={weddingImage} />
 
       </div>
 
-      <div className="gallery-row">
+      <div className="gallery-row" data-aos="fade-up">
         
         <Image className="gallery-photo" alt= "" src={babyshower1} />
         <Image className="gallery-photo" alt= "" src={babyshower2} />
         <Image className="gallery-photo" alt= "" src={babyshower3} />
-        <Image className="gallery-photo" alt= "" src={babyshower4} />
 
+      </div>
+
+      <div className="gallery-row" data-aos="fade-up">
+
+      <Image className="gallery-photo" alt= "" src={babyshower4} />
+      <Image className="gallery-photo" alt= "" src={flower} />
+      <Image  className="gallery-photo" alt= "" src={bouqet2} />
+      
       </div>
      
 </div>

@@ -28,9 +28,12 @@ const Events = () => {
         <p> Let us know every wish for your big day. Services include: 
             Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
         </p>
-        <button className="arrowButton">
+        <a href="/weddings">        
+            <button className="arrowButton">
             &rarr;
-        </button>
+            </button>
+        </a>
+
         </div>
 
       </div>
@@ -46,9 +49,11 @@ const Events = () => {
         <p> Let us know every wish for your big day. Services include: 
             Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
         </p>        
-        <button className="arrowButton">
+        <a href="/babyShower">        
+            <button className="arrowButton">
             &rarr;
-        </button>
+            </button>
+        </a>
       </div>
 
       </div>
@@ -64,9 +69,11 @@ const Events = () => {
       <p> Let us know every wish for your big day. Services include: 
             Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
         </p>      
-        <button className="arrowButton">
+        <a href="/otherEvents">        
+            <button className="arrowButton">
             &rarr;
-        </button>
+            </button>
+        </a>
       
     </div>
 
@@ -82,9 +89,11 @@ const Events = () => {
   <p> Let us know every wish for your big day. Services include: 
  Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
   </p>
-  <button className="arrowButton">
-   &rarr;
-  </button>
+  <a href="/paintings">        
+            <button className="arrowButton">
+            &rarr;
+            </button>
+        </a>
 </div>
 
 </div>
