@@ -19,6 +19,7 @@ const Rentals = () => {
 
 <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='eventPhoto' alt="wedding photo" src={couchPhoto}/>
+          <p>Cream Couch</p>
           <button className="arrowButton">
             &rarr;
         </button>
@@ -26,6 +27,7 @@ const Rentals = () => {
 
       <div className='eventPhotoDiv' data-aos="fade-up">
         <Image className='eventPhoto' alt="baby shower photo" src={couchPhoto}/>
+        <p>Cream Couch</p>
         <button className="arrowButton">
             &rarr;
         </button>
@@ -33,6 +35,7 @@ const Rentals = () => {
 
       <div className='eventPhotoDiv' data-aos="fade-up">
         <Image className='eventPhoto' alt="party photo" src={couchPhoto}/>
+        <p>Cream Couch</p>
         <button className="arrowButton">
             &rarr;
         </button>

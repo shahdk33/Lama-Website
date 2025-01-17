@@ -43,12 +43,12 @@ a {
 
 .topNav{
     width: 100%;           /* w-full */
-    /* position: fixed;       fixed */
+        
     padding: 0.5rem;
     display: flex;         /* flex */
     align-items: center;   /* items-center */
     justify-content: space-between; /* justify-between */
-    /* z-index: 50;    */
+      
     list-style: none; 
     background-color: white;       /* z-50 */
   
@@ -143,6 +143,9 @@ a {
 .eventPhotoDiv {
   flex: 0 0 auto;
   margin: 1rem; 
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .events-page{
@@ -242,3 +245,73 @@ a {
   align-items: center; 
   gap: 20px; 
 }
+
+.page{
+  width: 80%;
+  margin: auto;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+}
+
+.about-image{
+  border-radius: 24px;
+}
+
+.about-text{
+  margin: 5%;
+}
+
+.contact-us {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-select {
+  appearance: none;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+
+
+

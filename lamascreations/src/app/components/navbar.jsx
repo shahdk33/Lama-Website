@@ -26,7 +26,7 @@ const Navbar = () => {
 </div>
 
             <div>
-            <a href="#quote" className='quote-button'>Get A Quote</a>
+            <Link className="quote-button" href="/quote">Get A Quote</Link>
 
             </div>
             
