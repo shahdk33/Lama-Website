@@ -41,7 +41,6 @@ const Gallery = () => {
         
         <Image className="gallery-photo" alt= "" src={weddingImage2} />
         <Image className="gallery-photo" alt= "" src={weddingImage4} />
-
         <Image className="gallery-photo" alt= "" src={weddingImage6} />
 
 

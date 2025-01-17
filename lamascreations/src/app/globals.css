@@ -155,11 +155,10 @@ a {
 }
 
 .eventPhoto {
-  width: auto; 
-  height: 16rem; 
+  width: 20rem; 
+  height: auto; 
   border-radius: 16px; 
   object-fit: cover; 
-  margin: 1rem;
 }
 
 .eventDetails {
@@ -331,4 +330,10 @@ label {
 }
 
 
-
+.rentalPhoto {
+  width: auto; 
+  height: 16rem; 
+  border-radius: 16px; 
+  object-fit: cover; 
+  margin: 1rem;
+}
