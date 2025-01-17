@@ -13,7 +13,7 @@ const Quote = () => {
 
   return (
     <div className="rentals-page">
-      <h1 className="service-title">Get A Quote</h1>
+      <h1 className="service-title">Inquiry or Quote</h1>
       <div className="contact-us">
      
       <form className="contact-form">

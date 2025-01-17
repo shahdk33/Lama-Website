@@ -26,25 +26,25 @@ const Rentals = () => {
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="cream love seat couch" src={couchPhoto}/>
           <p>Cream Love Seat Couch</p>
-          <button className="arrowButton">
+          <a href="/quote"><button className="arrowButton">
             &rarr;
-          </button>
+          </button></a>
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="cream love seat bench" src={bench}/>
           <p>Cream Love Seat Bench</p>
-          <button className="arrowButton">
+          <a href="/quote"><button className="arrowButton">
             &rarr;
-          </button>
+          </button></a>
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="party photo" src={arch}/>
           <p>Gold Circle Arch</p>
-          <button className="arrowButton">
+          <a href="/quote"><button className="arrowButton">
             &rarr;
-          </button>
+          </button></a>
         </div>
 
       </div>
@@ -54,25 +54,25 @@ const Rentals = () => {
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="gold arches" src={arches}/>
           <p>Gold Arches</p>
-          <button className="arrowButton">
+          <a href="/quote"><button className="arrowButton">
             &rarr;
-          </button>
+          </button></a>
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="gold centerpieces" src={centerpeices}/>
           <p>Set of Gold Table Centerpieces</p>
-          <button className="arrowButton">
+          <a href="/quote"><button className="arrowButton">
             &rarr;
-          </button>
+          </button></a>
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="party photo" src={centerpeices2}/>
           <p>Set of Gold Table Centerpieces</p>
-          <button className="arrowButton">
+          <a href="/quote"><button className="arrowButton">
             &rarr;
-          </button>
+          </button></a>
         </div>
 
       </div>

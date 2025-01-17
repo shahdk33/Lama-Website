@@ -100,7 +100,8 @@ a {
 }
 
 .dropdownMenu li {
-  padding: 5px 20px;
+  padding: 6px 0px;
+  margin-left: 16px;
 }
 
 .dropdownMenu li a {

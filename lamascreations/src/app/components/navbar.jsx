@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <nav className='topNav'>
             
-            <a href="#top">
+            <a href="/home">
                 <Image src={logo}  alt="Lama's Creations Logo" className='logo'/>
             </a>
 
