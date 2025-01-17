@@ -43,12 +43,10 @@ a {
 
 .topNav{
     width: 100%;           /* w-full */
-        
     padding: 0.5rem;
     display: flex;         /* flex */
     align-items: center;   /* items-center */
     justify-content: space-between; /* justify-between */
-      
     list-style: none; 
     background-color: white;       /* z-50 */
   
@@ -64,11 +62,58 @@ a {
     display: flex;
     align-items: center;
     list-style: none;
+    list-style: none;
+    display: flex;
   }
 
- .topNavLinks>li:hover{
+  .topNavDiv {
+    display: flex;
+  }
+
+  .topNavLinks li {
+    position: relative;
+  }
+  .topNavLinks a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .servicesDropdown:hover .dropdownMenu {
+    display: block;
+  }
+
+ .topNavLinks>li>a:hover{
   color: rgb(182, 136, 19)
  }
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  z-index: 10;
+  border-radius: 16px;
+  width: 400px;
+}
+
+.dropdownMenu li {
+  padding: 5px 20px;
+}
+
+.dropdownMenu li a {
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+
+.dropdownMenu li a:hover {
+  background-color: #ffffff;
+  color: #af9213;
+}
+
 
 .quote-button{
   padding: 16px;

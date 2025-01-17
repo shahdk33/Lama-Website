@@ -18,7 +18,14 @@ const Navbar = () => {
 <div className="topNavDiv">
             <ul className="topNavLinks">
                 {/* <li> <Link href="/home">Home</Link></li> */}
-                <li> <a href="/home#events">Services</a></li>
+                <li className="servicesDropdown"> <a href="/home#events">Services</a>
+                      <ul className="dropdownMenu">
+                      <li><Link href="/weddings">Weddings</Link></li>
+                      <li><Link href="/babyShower">Baby Showers</Link></li>
+                      <li><Link href="/otherEvents">Other Events</Link></li>
+                      <li><Link href="/paintings">Paintings</Link></li>
+                      </ul>
+                </li>
                 <li> <Link href="/rentals">Rentals</Link></li>
                 <li> <Link href="/gallery">Gallery</Link></li>
                 <li><Link href="/about">About</Link></li>
