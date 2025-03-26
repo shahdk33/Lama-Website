@@ -26,25 +26,18 @@ const Rentals = () => {
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="cream love seat couch" src={couchPhoto}/>
           <p>Cream Love Seat Couch</p>
-          <a href="/quote"><button className="arrowButton">
-            &rarr;
-          </button></a>
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="cream love seat bench" src={bench}/>
           <p>Cream Love Seat Bench</p>
-          <a href="/quote"><button className="arrowButton">
-            &rarr;
-          </button></a>
+
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="party photo" src={arch}/>
           <p>Gold Circle Arch</p>
-          <a href="/quote"><button className="arrowButton">
-            &rarr;
-          </button></a>
+
         </div>
 
       </div>
@@ -54,25 +47,19 @@ const Rentals = () => {
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="gold arches" src={arches}/>
           <p>Gold Arches</p>
-          <a href="/quote"><button className="arrowButton">
-            &rarr;
-          </button></a>
+
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="gold centerpieces" src={centerpeices}/>
           <p>Set of Gold Table Centerpieces</p>
-          <a href="/quote"><button className="arrowButton">
-            &rarr;
-          </button></a>
+
         </div>
 
         <div className='eventPhotoDiv' data-aos="fade-up">
           <Image className='rentalPhoto' alt="party photo" src={centerpeices2}/>
           <p>Set of Gold Table Centerpieces</p>
-          <a href="/quote"><button className="arrowButton">
-            &rarr;
-          </button></a>
+
         </div>
 
       </div>

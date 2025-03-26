@@ -21,8 +21,7 @@ const Header = () => {
         <Image className="header-image" alt="wedding table set up" src={header}/>
         <div className="header-text">
             <h1 className={`${ballet.className} header-title`} data-aos="fade-up">What's the occasion?</h1>
-            <p data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab quam voluptatibus deleniti cumque, delectus incidunt, error sapiente 
-                temporibus aut numquam possimus tenetur natus beatae, modi doloribus consectetur recusandae suscipit. Quisquam!</p>
+            <p className="header-p" data-aos="fade-up">Wedding, Baby Shower, Bridal Shower, Engagement Party, Award Ceremony or Graduation: Whatever it may be, Lama's Creations has got you covered!</p>
             
             </div>
     </div>

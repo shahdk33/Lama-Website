@@ -26,7 +26,7 @@ const Events = () => {
         <div className="eventDetails">
         <h2>Wedding Planning</h2>
         <p> Let us know every wish for your big day. Services include: 
-            Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
+            Entrance poster or mirror, Flower bouquet, Wedding cake, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
         </p>
         <a href="/weddings">        
             <button className="arrowButton">
@@ -47,7 +47,7 @@ const Events = () => {
       <div className="eventDetails">
         <h2>Baby Shower</h2>
         <p> Let us know every wish for your big day. Services include: 
-            Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
+            Balloon decor, venue decor, favours, cake, catering, and/or chocolate arrangements
         </p>        
         <a href="/babyShower">        
             <button className="arrowButton">
@@ -66,8 +66,7 @@ const Events = () => {
 
       <div className="eventDetails">
       <h2>Event Planning</h2>
-      <p> Let us know every wish for your big day. Services include: 
-            Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
+      <p> Let us know every wish for your big day! We specialize in any events such as graduation, evening parties, award ceremonies and more. 
         </p>      
         <a href="/otherEvents">        
             <button className="arrowButton">
@@ -86,8 +85,7 @@ const Events = () => {
 
 <div className="eventDetails">
   <h2>Paintings</h2>
-  <p> Let us know every wish for your big day. Services include: 
- Entrance poster or mirror, Flower bouquet, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
+  <p> Acrylic paintings handmade with love, to bring life to your home or commercial space!
   </p>
   <a href="/paintings">        
             <button className="arrowButton">

@@ -72,6 +72,9 @@ a {
 
   .topNavLinks li {
     position: relative;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right:10px ;
   }
   .topNavLinks a {
     text-decoration: none;
@@ -221,6 +224,11 @@ a {
 
 .eventDetails p {
   color: #555; 
+  font-size: 20px;
+}
+
+.header-p{
+  font-size: 20px;
 }
 
 .arrowButton {
@@ -285,6 +293,7 @@ a {
 
 .about-text{
   color: black;
+  font-size: 20px;
 }
 
 .rentals-Div {
