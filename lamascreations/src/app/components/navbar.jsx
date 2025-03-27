@@ -18,22 +18,22 @@ const Navbar = () => {
 <div className="topNavDiv">
             <ul className="topNavLinks">
                 {/* <li> <Link href="/home">Home</Link></li> */}
-                <li className="servicesDropdown"> <a href="/home#events">Services</a>
+                <li className="servicesDropdown"> <a href="/home#events">SERVICES</a>
                       <ul className="dropdownMenu">
-                      <li><Link href="/weddings">Weddings</Link></li>
-                      <li><Link href="/babyShower">Baby Showers</Link></li>
-                      <li><Link href="/otherEvents">Other Events</Link></li>
-                      <li><Link href="/paintings">Paintings</Link></li>
+                      <li><Link href="/weddings">WEDDING</Link></li>
+                      <li><Link href="/babyShower">BABY SHOWER</Link></li>
+                      <li><Link href="/otherEvents">OTHER EVENTS</Link></li>
+                      <li><Link href="/paintings">PAINTINGS</Link></li>
                       </ul>
                 </li>
-                <li> <Link href="/rentals">Rentals</Link></li>
-                <li> <Link href="/gallery">Gallery</Link></li>
-                <li><Link href="/about">About</Link></li>
+                <li> <Link href="/rentals">RENTALS</Link></li>
+                <li> <Link href="/gallery">GALLERY</Link></li>
+                <li><Link href="/about">ABOUT</Link></li>
             </ul>
 </div>
 
             <div>
-            <Link className="quote-button" href="/quote">Get A Quote</Link>
+            <Link className="quote-button" href="/quote">CONTACT</Link>
 
             </div>
             

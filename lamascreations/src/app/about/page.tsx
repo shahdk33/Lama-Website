@@ -5,6 +5,12 @@ import aboutPhoto from '../assets/about-us.jpg'
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import AOS from "aos";
+import { Parisienne } from 'next/font/google';
+
+const ballet = Parisienne({
+  subsets: ['latin'],
+  weight: ['400'],
+});
 
 const About = () => {
   useEffect(() => {
@@ -12,8 +18,11 @@ const About = () => {
     }, []);
 
   return (
-    <div className="page">
-      <h1 className="service-title">About Us</h1>
+    <div className="about-page">
+   
+   
+   <h1 className={`${ballet.className} header-title`} data-aos="fade-up">My Story</h1>
+
       <p className="about-text" data-aos="fade-up"> 
       Hello and welcome! My name is Lama Issa, and I’m overjoyed to share my passion for art and creativity with you. 
       <br></br> My journey began during my time as a Master's student at Dalhousie University, where I started an at-home business crafting beautifully decorated chocolate arrangements for all kinds of special occasions.

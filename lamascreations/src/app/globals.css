@@ -17,9 +17,9 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 100;
 }
 
 * {
@@ -35,7 +35,7 @@ a {
 }
 
 .logo{
-  width: 80px; 
+  width: 100px; 
   height: auto; 
   cursor: pointer;
   margin-left: 3rem;
@@ -145,10 +145,10 @@ a {
 
 .header-text{
   position: absolute;
-  top: 65%; /* Centers vertically */
+  margin-top: 6rem;
   left: 50%; /* Centers horizontally */
   transform: translate(-50%, -50%); 
-  color: white; /* Adjust to contrast with the image */
+  color: rgb(44, 42, 42); /* Adjust to contrast with the image */
   display: flex;
   flex-direction: column; /* Stacks the elements vertically */
   align-items: center; /* Centers the text horizontally */
@@ -184,8 +184,8 @@ a {
   align-items: flex-start; /* Align items to the top */
   gap: 2rem; 
   margin-top: 4.5%;
-  margin-left: 3rem;
-  margin-right: 20%;
+  margin-left: 8rem;
+  margin-right: 8rem;
   overflow: hidden;
 }
 
@@ -204,9 +204,8 @@ a {
 }
 
 .eventPhoto {
-  width: 20rem; 
+  width: 25rem; 
   height: auto; 
-  border-radius: 16px; 
   object-fit: cover; 
 }
 
@@ -311,6 +310,14 @@ a {
   text-align: center; 
 }
 
+.about-page{
+  width: 80%;
+  margin: auto;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+}
+
 .about-image{
   border-radius: 24px;
 }
@@ -379,12 +386,16 @@ label {
 .gallery-photo{
   width: 30%;
   height: auto;
-  border-radius: 16px;
   margin: 10px;
   margin-top: 5%;
 }
 
-
+.header-photo{
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  margin-top: 5%;
+}
 .rentalPhoto {
   width: auto; 
   height: 16rem; 

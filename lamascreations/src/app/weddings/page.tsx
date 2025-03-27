@@ -23,9 +23,9 @@ const Wedding = () => {
 
       <div className="gallery-row" data-aos="fade-up">
       
-      <Image className="gallery-photo" alt= "" src={weddingImage5} />
-      <Image className="gallery-photo" alt= "" src={weddingImage2} />
+      <Image className="gallery-photo" alt= "" src={weddingImage4} />
       <Image className="gallery-photo" alt= "" src={weddingImage3} />
+      <Image className="gallery-photo" alt= "" src={weddingImage2} />
 
 
 </div>

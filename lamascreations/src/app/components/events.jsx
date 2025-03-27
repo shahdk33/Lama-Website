@@ -25,8 +25,8 @@ const Events = () => {
 
         <div className="eventDetails">
         <h2>Wedding Planning</h2>
-        <p> Let us know every wish for your big day. Services include: 
-            Entrance poster or mirror, Flower bouquet, Wedding cake, Customizable ring tray, Table centerpieces, Couple seating, Venue decor, wedding favours and/or chocolate arrangement
+        <p> Let us know every wish for your big day! Services include: 
+            Planning Consulatations, Entrance poster or mirror, Flower bouquet, Wedding cake, Customizable ring tray, Table centerpieces, Couple seating, Flower Arrangement, Venue decor, wedding favours and/or chocolate arrangement
         </p>
         <a href="/weddings">        
             <button className="arrowButton">
@@ -46,8 +46,8 @@ const Events = () => {
 
       <div className="eventDetails">
         <h2>Baby Shower</h2>
-        <p> Let us know every wish for your big day. Services include: 
-            Balloon decor, venue decor, favours, cake, catering, and/or chocolate arrangements
+        <p> Let us know every wish for your big day! Services include: 
+            Event Consultations, balloon decor, venue decor, favours, cake, catering, and/or chocolate arrangements
         </p>        
         <a href="/babyShower">        
             <button className="arrowButton">
@@ -55,6 +55,7 @@ const Events = () => {
             </button>
         </a>
       </div>
+
 
       </div>
 
@@ -82,7 +83,6 @@ const Events = () => {
 <div className='eventPhotoDiv'>
   <Image className='eventPhoto' alt="painting photo" src={painting}/>
 </div>
-
 <div className="eventDetails">
   <h2>Paintings</h2>
   <p> Acrylic paintings handmade with love, to bring life to your home or commercial space!
@@ -93,6 +93,7 @@ const Events = () => {
             </button>
         </a>
 </div>
+
 
 </div>
 
