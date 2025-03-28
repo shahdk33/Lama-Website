@@ -22,10 +22,10 @@ const Header = () => {
     }, []);
   return (
     <div className="headerDiv">
-      <div className="gallery-row">
+      <div className="header-row">
       <Image className="header-photo" alt= "" src={weddingImage3} />
-      <Image className="header-photo" alt= "" src={grad2} />
-      <Image className="header-photo" alt= "" src={weddingImage4} />
+      <Image id="header2" className="header-photo" alt= "" src={grad2} />
+      <Image id="header3" className="header-photo" alt= "" src={weddingImage4} />
 
       </div>
 

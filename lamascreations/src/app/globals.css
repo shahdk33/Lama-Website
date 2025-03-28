@@ -385,7 +385,7 @@ label {
   resize: vertical;
 }
 
-.gallery-row{
+.gallery-row, .header-row{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -413,8 +413,12 @@ label {
   margin: 1rem;
 }
 
+
+
+
 /* Media Queries */
 @media (min-width: 768px) {
+  
   .logo {
     width: 100px;
     margin-left: 3rem;
@@ -478,6 +482,89 @@ label {
 }
 
 @media (max-width: 767px) {
+  .service {
+    flex-direction: column;
+    margin: 2rem 1rem;
+    gap: 1rem;
+  }
+
+  .eventPhotoDiv {
+    width: 100%;
+    margin: 0;
+    order: 1;
+  }
+
+  .eventPhoto {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .eventDetails {
+    order: 2; 
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
+
+  .eventDetails h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .eventDetails p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .arrowButton {
+    width: 100%;
+    max-width: 120px;
+    margin: 1rem 0;
+  }
+
+  .service-title {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .headerDiv {
+    height: auto; 
+    min-height: 70vh; 
+  }
+
+  .header-row {
+    flex-direction: column; 
+  }
+
+  .header-photo {
+    width: 100%; 
+    height: auto; 
+    margin: 0; 
+    max-height: 300px; 
+  }
+
+  #header3, #header2{
+    display: none;
+  }
+  .header-text {
+    position: relative; 
+    top: auto;
+    left: auto;
+    transform: none;
+    background: rgba(255, 255, 255, 0.8); 
+    z-index: 2; 
+  }
+
+  .header-title {
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+  }
+
+  .header-p {
+    font-size: 1rem; 
+    max-width: 90%;
+  }
+  
   .mobile-menu-button {
     display: block;
   }
