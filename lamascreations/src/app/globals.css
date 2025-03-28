@@ -123,7 +123,6 @@ a {
   padding: 16px;
   border-radius: 28px;
   border: solid 1px black;
-  margin-right: 3rem;
   transition: background-color 0.3s ease;
 }
 
@@ -310,6 +309,16 @@ a {
   text-align: center; 
 }
 
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  z-index: 100;
+}
+
 .about-page{
   width: 80%;
   margin: auto;
@@ -402,4 +411,117 @@ label {
   border-radius: 16px; 
   object-fit: cover; 
   margin: 1rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .logo {
+    width: 100px;
+    margin-left: 3rem;
+  }
+
+  .mobile-menu-button {
+    display: none;
+  }
+
+  .topNavLinks {
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .topNavLinks li {
+    font-size: 18px;
+  }
+
+  .dropdownMenu {
+    width: 300px;
+  }
+
+  .quote-button {
+    padding: 16px;
+    margin-right: 3rem;
+  }
+
+  .header-photo {
+    width: 33.33%;
+    height: 400px;
+    margin-top: 0;
+  }
+
+  .header-title {
+    font-size: 3.5rem;
+  }
+
+  .header-p {
+    font-size: 1.25rem;
+  }
+
+  .service {
+    flex-direction: row;
+    margin: 4rem 8rem;
+  }
+
+  .eventDetails {
+    flex: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dropdownMenu {
+    width: 400px;
+  }
+
+  .header-text {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .topNavDiv {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 70%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 90;
+    padding-top: 4rem;
+  }
+
+  .topNavDiv.mobile-menu-open {
+    transform: translateX(0);
+  }
+
+  .topNavLinks {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+    width: 100%;
+  }
+
+  .servicesDropdown .dropdownMenu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    display: none;
+    padding-left: 1rem;
+  }
+
+  .servicesDropdown:hover .dropdownMenu,
+  .servicesDropdown.mobile-menu-open .dropdownMenu {
+    display: block;
+  }
+
+  .quote-button-container {
+    margin-top: 2rem;
+  }
 }

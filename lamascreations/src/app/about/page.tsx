@@ -27,9 +27,9 @@ const About = () => {
       Hello and welcome! My name is Lama Issa, and I’m overjoyed to share my passion for art and creativity with you. 
       <br></br> My journey began during my time as a Master's student at Dalhousie University, where I started an at-home business crafting beautifully decorated chocolate arrangements for all kinds of special occasions.
 
-With hard work and a lot of love, my husband and I brought that dream to life by opening Choco Cafe, a delightful chocolate shop and café in Downtown Halifax. Balancing this venture alongside being a parent of three and pursuing my studies was no easy feat, but it was a labor of love and a chapter I hold close to my heart. Although life led to the café’s closure, the experience fueled my passion for bringing joy to others through art and creativity.
+With hard work and a lot of love, my husband and I brought that dream to life by opening Choco Cafe, a delightful chocolate shop and café in Downtown Halifax. Balancing this venture alongside being a parent of three and pursuing my studies was not easy, but it was a labor of love and a chapter I hold close to my heart. Although life led to the café’s closure, the experience fueled my passion for bringing joy to others through art and creativity.
 
-Now, nearly a decade later, I’m thrilled to still be doing what I love most! <br></br> <br></br>With over 15 years of experience in event planning, I specialize in turning ideas into unforgettable realities. I thrive on connecting with people, understanding their vision, and weaving creative touches into every project I undertake.
+Now, nearly a decade later, I’m thrilled to still be doing what I love most! <br></br> <br></br>With over <b>15 years of experience in event planning</b>, I specialize in turning ideas into unforgettable realities. I love connecting with people, understanding their vision, and bringing it to life!
 
 It brings me so much joy to create something beautiful, meaningful, and unique for every client. Whether it’s a small celebration or a grand event, I’m here to make your dreams come to life. Thank you for allowing me to do what I love while helping make your special moments truly extraordinary.
 
