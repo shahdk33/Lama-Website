@@ -482,6 +482,30 @@ label {
 }
 
 @media (max-width: 767px) {
+  .rentals-Div {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .rentalPhoto {
+    width: 50%;
+    height: auto;
+    max-height: 300px;
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .eventPhotoDiv {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .eventPhotoDiv p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
   .service {
     flex-direction: column;
     margin: 2rem 1rem;
