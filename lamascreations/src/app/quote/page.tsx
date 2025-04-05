@@ -67,7 +67,7 @@ const Quote = () => {
             name="message"
             className="form-textarea"
             placeholder="Write your message here"
-            rows="6"
+            rows={6}
             required
           ></textarea>
         </div>
