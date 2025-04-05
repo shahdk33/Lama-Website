@@ -16,7 +16,7 @@ const Quote = () => {
       <h1 className="service-title">Inquiry or Quote</h1>
       <div className="contact-us">
      
-      <form className="contact-form">
+      <form action="https://formsubmit.co/shahdkhartabil2@gmail.com" method="POST" className="contact-form">
         <div className="form-group">
           <label htmlFor="fullName">Full Name</label>
           <input
